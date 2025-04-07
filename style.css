@@ -1,0 +1,31 @@
+th{
+    color: white;
+    background-color: rgb(99, 99, 99);
+    border-radius: 20%;
+    border-color: rgb(222, 223, 224);
+    border: 1px solid rgba(255, 255, 255, 0.493);
+    
+}
+th:hover{
+    background-color: rgb(115, 115, 115);
+}
+td{
+    color: white;
+    border-radius: 20%;
+    border: 1.1px solid black;
+}
+td:hover{
+    background-color: rgb(58, 55, 55);
+}
+td button:hover {
+    background-color: rgb(58, 55, 55);
+}
+button{
+    color: white;
+    border: 0px;
+    background-color: rgb(99, 99, 99);
+    font-size: 20px;
+}
+button:hover{
+    background-color: rgb(115, 115, 115);
+}

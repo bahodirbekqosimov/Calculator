@@ -1,0 +1,88 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="icon" href="icon.png" type="image/png">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: rgb(74, 75, 72);">
+    <a href="https://www.instagram.com/bahodirbek.qosimov/"><img src="me.png" alt="Bahodirbek" style="height: 30px;"></a>
+    <div style="text-align: center; display: grid; place-items:center; height: 500px;">
+        <div style="border: 3px solid black; background-color: rgb(46, 43, 43); border-radius: 12px;" >
+        
+            <table border="3px" style="height: 350px; width: 350px;border-radius: 2%; table-layout: fixed;" id="table">
+                 <tr><br>
+                    <div style="  height: 60px; text-align: center;">
+                        <div style="border: 5px solid black; border-radius: 15.8px; background-color: antiquewhite; height: 55px;">
+                            <h2 id="qiym" style="color: rgb(0, 0, 0);">Off</h2>
+    
+                           </div>
+                    
+                    </div><br><br>
+                </tr>
+                <tr>
+                    <td><button style="background-color:  rgb(46, 43, 43);" id="clear">AC</button></td>
+                    <td><button style="background-color:  rgb(46, 43, 43);" id="bol">÷</button></td>
+                    <td><button style="background-color:  rgb(46, 43, 43);" id="pow">×</button></td>
+                    <td><button id="minus" style="background-color:  rgb(46, 43, 43);">-</button></td>
+                    <td><button style="background-color:  rgb(46, 43, 43); " id="delete"><img src="delete.png" alt="←"style = "height:18px; width:20px;"></button></td>
+                </tr>
+
+                <tr>
+                    <th><button id="num7">7</button></th>
+                    <th><button id="num8">8</button></th>
+                    <th><button id="num9">9</button></th>
+                    <td><button id="plus" style="background-color:  rgb(46, 43, 43);">+</button></td>
+                    
+                    <td><button id="sin" style="background-color: rgb(46, 43, 43);">sin(x)</button></td>
+                </tr>
+
+                <tr>
+                    <th><button id="num4">4</button></th>
+                    <th><button id="num5">5</button></th>
+                    <th><button id="num6">6</button></th>
+                    <td><button id="kvd" style="background-color: rgb(46, 43, 43);"><img src="pow.png" alt="x*x" height="19px"></button></td>
+
+                    <td ><button id="cos" style="background-color: rgb(46, 43, 43);font-size: 19.5px;">cos(x)</button></td>
+
+
+                    
+                   
+                </tr>
+
+                <tr>
+                    <th><button id="num1">1</button></th>
+                    <th><button id="num2">2</button></th>
+                    <th><button id="num3">3</button></th>
+                    <td><button id="sqrt" style="background-color: rgb(46, 43, 43);"><img src="square-root.png" alt="sqt(x)" style="height: 20px;"></button></td>
+
+                    <td><button id="tan" style=" background-color: rgb(46, 43, 43);">tan(x)</button></td>
+
+
+                </tr>
+
+                <tr>
+                    <th colspan="2"><button id="num0">0</button></th>
+                    <td><button id="dot" style="background-color:  rgb(46, 43, 43);">•</button></td>
+                    <td><button id="foiz" style="background-color: rgb(46, 43, 43);">%</button></td>
+
+
+                    <td rowspan="2" style="background-color: orange;"><button style="background-color: orange; color: black;" id="draw">=</button></td>
+                    
+                   
+                </tr>
+
+            </table>
+
+        </div>
+    </div>
+    <script src="index.js"></script>
+    <script src="main.js"></script>
+    <script src="index.html"></script>
+</body>
+</html>
