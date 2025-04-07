@@ -176,11 +176,11 @@ sqrt.addEventListener("click",()=>{
     out.textContent = `√${arr}=${Math.sqrt(Number(old()))}`
 })
 sin.addEventListener("click",()=>{
-    out.textContent = `sin(${arr})=${Math.sin(Number(old())).toFixed(5)}`
+    out.textContent = `sin(${arr})=${Math.sin(Number(old(arr))).toFixed(5)}`
 })
 cos.addEventListener("click",()=>{
-    out.textContent = `cos(${arr})=${Math.cos(Number(old())).toFixed(5)}`
+    out.textContent = `cos(${arr})=${Math.cos(Number(old(arr))).toFixed(5)}`
 })
 tan.addEventListener("click",()=>{
-    out.textContent = `tan(${arr})=${Math.tan(Number(old())).toFixed(5)}`
+    out.textContent = `tan(${arr})=${Math.tan(Number(old(arr))).toFixed(5)}`
 })
